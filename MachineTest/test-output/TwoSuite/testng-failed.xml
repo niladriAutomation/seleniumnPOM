@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TwoSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TwoTest(failed)">
+    <classes>
+      <class name="AutomationPractice.MachineTest.ManageOrderTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="manageorder"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- AutomationPractice.MachineTest.ManageOrderTest -->
+    </classes>
+  </test> <!-- TwoTest(failed) -->
+</suite> <!-- Failed suite [TwoSuite] -->

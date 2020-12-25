@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TwoSuite">
+  <test  name="TwoTest">
+    <classes>
+      <class name="AutomationPractice.MachineTest.SearchProdToMangOrdToRegisToUpdateAddrsToPlacOrderTest"/>
+      <class name="AutomationPractice.MachineTest.ManageOrderTest"/>
+      <class name="AutomationPractice.MachineTest.SearchTest"/>
+      
+    </classes>
+  </test> <!-- TwoTest -->
+</suite> <!-- TwoSuite -->
